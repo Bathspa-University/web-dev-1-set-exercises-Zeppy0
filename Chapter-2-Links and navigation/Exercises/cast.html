@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="red.css">
+<body>
+    <header>
+        <a href="#" class="Movie">The Dark Knight</a>
+        <div class="menu-btn"></div>
+
+        <div class="navbar">
+            <div class="navbar-items">
+                <a href="Rav.html">Home</a>
+                <a href="cast.html">Cast</a>
+                <a href="plot.html">Plot</a>
+                <a href="Read.html">Read More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <!--<video src="" autoplay muted loop></video>-->
+        <img class="imr" src="the_dark_knight_banner.jpg" alt="backgroungimg">
+        <div class="content">
+            <h1>About <br> <span>Movie Cast</span></h1>
+            <p>
+                <ul>
+
+                <li>Christian Bale as Bruce Wayne / Batman: A wealthy socialite who as a child was traumatized by his parents' murder. Wayne secretly operates as the heroic vigilante Batman.</li>
+                <li>Michael Caine as Alfred Pennyworth: Wayne's father-figure, trusted butler, and confidant.</li>
+                <li>Heath Ledger as the Joker: A criminal mastermind and anarchist who is determined to sow chaos and corruption throughout Gotham.</li>
+                <li>Gary Oldman as James Gordon: One of the few honest officers in the Gotham City Police Department (GCPD) who assists the Batman's war on crime.</li>
+                <li>Aaron Eckhart as Harvey Dent / Two-Face: Gotham's noble district attorney-turned-violent vigilante.</li>
+                <li>Maggie Gyllenhaal as Rachel Dawes: Gotham's assistant district attorney and Wayne's childhood friend, who is divided between her feelings for him and for Dent.</li>
+                <li>Morgan Freeman as Lucius Fox: Wayne Enterprises' CEO who supplies technology and equipment for the Batman's campaign.</li>
+            </ul>
+            </p>
+            <a href="Read.html">Read More</a>
+        </div>
+       <!-- <div>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>-->
+    </section>
+    
+    <script type="text/javascript">
+        //Javascript for the responsive navigation menu
+const Menubtn= document.querySelector(".menu-btn")
+const navbar= document.querySelector(".navbar")
+
+Menubtn.addEventListener("click",() =>{
+    Menubtn.classList.toggle("active");
+    navbar.classList.toggle("active");
+});
+    </script>
+
+</body>
+</html>
