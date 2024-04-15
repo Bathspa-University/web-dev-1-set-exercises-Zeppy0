@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    background: rgb(99, 35, 35);
+    padding: 50px;
+    border-radius: 10px 0 10px 0;
+    color: #00b3ff;
+}
+.input-group{
+margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: lightskyblue;
+}
+input[type="number"]
+{
+    width: 150px;
+    padding: 10px;
+    border: 2px solid violet;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+input[type="number"]:focus{
+    outline: auto;
+    border-color: azure;
+}
+button{
+    background-color: bisque;
+    cursor: pointer;
+    transition: backgroungd-color 0.3s;
+}
+button:hover{
+    background-color: cyan;
+}
+#totalcost{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
