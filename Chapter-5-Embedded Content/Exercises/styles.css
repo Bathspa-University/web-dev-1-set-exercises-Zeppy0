@@ -1,0 +1,19 @@
+/* This is to center the video */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+}
+
+/* This is for the size of vidoe and for the border */
+
+video{
+    display: flex;
+    width: 500px;
+    height: auto;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 5px 4px whitesmoke
+}
