@@ -22,14 +22,12 @@ h1{
     text-align: center;
     color: whitesmoke;
 }
-
 .gallery {
     margin: 20px auto;
     border: 1px solid #ccc;
     width: 80%; /* Adjusted width for one column */
     transition: border 0.3s ease, transform 0.5s ease; /* Added transform transition */
 }
-
 .gallery:hover {
     border: 1px solid #777;
     transform: rotateY(180deg); /* Rotate the image on hover */
